@@ -44,5 +44,33 @@ public class Ch1 {
         num1 = num2; // 이 순간 변수 num1에 변수 num2의 값을 대입 (원래 값은 사라짐)
 
         System.out.println(num1);
+
+        /**
+         * 수치형
+         * 수치가 들어가는 변수형에는 정수용인 정수형과 실수용인 실수형이 있다.
+         * 정수형
+         * byte: -128~127 8비트
+         * short: -32768~32767 16비트
+         * int: -2147483648~2147483647 32비트
+         * long: -9223372036854775808~9223372036854775807 64비트
+         * long형 변수에 정수를 대입할 경우는 수치의 뒤에 l 또는 L을 붙여서 대입한다.
+         *
+         * 실수형
+         * float 32비트
+         * double 64비트
+         * float형 변수에 실수값을 대입할 경우는 수치 뒤에 f 또는 F를 붙여서 대입한다.
+         */
+
+        long l = 3000000000L;
+        byte c = 127;
+        short d = 10000;
+        float e = 1.2f;
+        double f = 0.34;
+
+        System.out.println(l);
+        System.out.println(c);
+        System.out.println(d);
+        System.out.println(e);
+        System.out.println(f);
     }
 }
