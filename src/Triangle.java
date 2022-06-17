@@ -1,31 +1,38 @@
 public class Triangle {
-    double base;
-    double height;
+    private double base;
+    private double height;
 
-    public Triangle(double bs, double hg) {
-        base = bs;
-        height = hg;
+    public Triangle(double base, double height) {
+        this.base = base;
+        this.height = height;
     }
 
-    public void setBase(double bs) {
-        base = bs;
+    public void setBase(double base) {
+        this.base = base;
     }
 
-    public void setHeight(double hg) {
-        height = hg;
+    public void setHeight(double height) {
+        this.height = height;
     }
 
     public double getArea() {
-        return (base * height) / 2;
+        return (this.base * this.height) / 2;
+    }
+
+    public void getTriInfo(){
+        System.out.println("밑변: "+this.base+", 높이: "+this.height);
     }
 }
+
 class TriangleInfo {
     public static void main(String[] args) {
-        Triangle obj1 = new Triangle(10,4);
-        System.out.println("넓이: "+obj1.getArea());
-
-        obj1.setBase(20);
-        obj1.setHeight(40);
-        System.out.println("넓이: "+obj1.getArea());
+        Triangle t1 = new Triangle(2, 5);
+        t1.getTriInfo();
+        System.out.println("넓이: "+t1.getArea());
+        System.out.println("=====================");
+        t1.setBase(4);
+        t1.setHeight(10);
+        t1.getTriInfo();
+        System.out.println("넓이: "+t1.getArea());
     }
 }
