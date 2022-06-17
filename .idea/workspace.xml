@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e47359a1-2858-46bd-a39d-7f04a03e3212" name="변경" comment="삼각형 예제 다시 작성">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e47359a1-2858-46bd-a39d-7f04a03e3212" name="변경" comment="자바의 정석 클래스 부분 연습문제 1번" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655467006170</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="자바의 정석 클래스 부분 연습문제 1번">
+      <created>1655470203766</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655470203767</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +133,7 @@
     <MESSAGE value="프로젝트생성" />
     <MESSAGE value="삼각형 예제" />
     <MESSAGE value="삼각형 예제 다시 작성" />
-    <option name="LAST_COMMIT_MESSAGE" value="삼각형 예제 다시 작성" />
+    <MESSAGE value="자바의 정석 클래스 부분 연습문제 1번" />
+    <option name="LAST_COMMIT_MESSAGE" value="자바의 정석 클래스 부분 연습문제 1번" />
   </component>
 </project>
