@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e47359a1-2858-46bd-a39d-7f04a03e3212" name="변경" comment="자바의 정석 클래스 부분 연습문제 1번">
-      <change afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
+    <list default="true" id="e47359a1-2858-46bd-a39d-7f04a03e3212" name="변경" comment="자바의 정석 클래스 부분 연습문제 2번">
+      <change afterPath="$PROJECT_DIR$/src/oop/Hello2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/MaxNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,14 +44,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.Ex_4">
-    <configuration name="Ch1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch1" />
-      <module name="Study" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.MaxNumber">
     <configuration name="Ex6_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ex6_2" />
       <module name="Study" />
@@ -65,9 +59,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Triangle" />
+    <configuration name="Hello2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.Hello2" />
       <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.MaxNumber" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -81,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.MaxNumber" />
+        <item itemvalue="애플리케이션.Hello2" />
         <item itemvalue="애플리케이션.Ex_4" />
         <item itemvalue="애플리케이션.Ex6_2" />
         <item itemvalue="애플리케이션.TriangleInfo" />
-        <item itemvalue="애플리케이션.Triangle" />
-        <item itemvalue="애플리케이션.Ch1" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655470203767</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="자바의 정석 클래스 부분 연습문제 2번">
+      <created>1655472292724</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655472292724</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,6 +165,7 @@
     <MESSAGE value="삼각형 예제" />
     <MESSAGE value="삼각형 예제 다시 작성" />
     <MESSAGE value="자바의 정석 클래스 부분 연습문제 1번" />
-    <option name="LAST_COMMIT_MESSAGE" value="자바의 정석 클래스 부분 연습문제 1번" />
+    <MESSAGE value="자바의 정석 클래스 부분 연습문제 2번" />
+    <option name="LAST_COMMIT_MESSAGE" value="자바의 정석 클래스 부분 연습문제 2번" />
   </component>
 </project>
